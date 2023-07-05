@@ -67,5 +67,10 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "husky":{
+    "hooks":{
+      "post-push": "npm run format"
+    }
   }
 }
